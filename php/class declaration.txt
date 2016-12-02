@@ -1,0 +1,14 @@
+IfLogin
+	no input
+	return 
+		1 means has logined in
+		0 means hasn't logined in
+
+LoginCheck
+	input
+		username
+		password
+	return
+		1 means login success
+		u0 means username don't exist
+		p0 means password is wrong
