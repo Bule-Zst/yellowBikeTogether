@@ -1,6 +1,7 @@
 back-end: 
-	to check if the user has logined in
-	to check the username and the corresponding password
-	the type-in of the bikeNumber and the corresponding password
-	to update the password
+	to check if the user has logined in( finished )
+	to check the username and the corresponding password( finish )
+	the type-in of the bikeNumber and the corresponding password( finish )
+	to update the password( finish )
+	to show the password according to the given bikeNumber( finish )
 	

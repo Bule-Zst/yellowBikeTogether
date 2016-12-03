@@ -1,3 +1,7 @@
+Annotation:
+The front end should make the transfer name same as the name in the 'input'!
+Every output is in the format of character
+
 IfLogin
 	no input
 	return 
@@ -12,3 +16,28 @@ LoginCheck
 		1 means login success
 		u0 means username don't exist
 		p0 means password is wrong
+
+InformationInput
+	input
+		bikeNumber
+		Password
+	output
+		1 means success
+		0 means the bikeNumber is existed
+
+InformationUpdata
+	input
+		bikeNumber
+		password
+	output
+		1 means success
+		0 means failure( in theory, it is not existed )
+
+ShowInformation
+	input
+		bikeNumber
+	output
+		0 means bikeNumber don't exist
+		if the output is not the '0', the output will be the needed password
+
+
