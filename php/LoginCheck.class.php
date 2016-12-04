@@ -1,6 +1,6 @@
 <?php 
 	error_reporting(E_ALL^E_NOTICE^E_WARNING);
-	include_once 'ConnecteDatabase.class.php';
+	include_once 'ConnectDatabase.class.php';
 	session_start();
 	$username = $_POST['username'];
 	$password = $_POST['password'];

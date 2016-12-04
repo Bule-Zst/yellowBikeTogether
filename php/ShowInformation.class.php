@@ -1,6 +1,6 @@
 <?php 
 	error_reporting(E_ALL^E_NOTICE^E_WARNING);
-	include_once 'ConnecteDatabase.class.php';
+	include_once 'ConnectDatabase.class.php';
 	$bikeNumber = $_POST['bikeNumber'];
 	$sql = "select password from information where bikeNumber = '$bikeNumber'";
 	$result = mysqli_query( $con, $sql);
