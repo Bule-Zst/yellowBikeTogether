@@ -1,0 +1,15 @@
+English:
+
+	in the database, every suer's account number has an extra column whose initial value is 'NULL' to record the login state. If first login, the column will be inputed '1', then if the user login in different equipments, because the column has been inputed '1', so the login will be rejucted.
+
+	When first login successfully, the equipment will be setted the cookie, so the user can use app smoothly.
+
+	If our administrators want to login in different equipments, we can set more same account number and the password in the database.
+
+简体中文：
+
+	在数据库中,每个账号都有一个额外的列来记录登录状态，该列的初始值为NULL。如果第一次登录,就把该列赋值为1,如果用户在不同的设备上再次登陆,因为该列的值为1,所以登陆将被拒绝。
+	
+	首次登录成功后,设备将设置cookie,这样用户就可以在登陆之后无须再次登陆地使用软件。
+	
+	如果我们的管理员想登录不同的设备,我们可以设置更多的相同的帐号和密码在数据库中。
